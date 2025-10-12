@@ -1,62 +1,72 @@
+/* Reset default browser styles */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* Main body styling */
 body {
     font-family: Arial, sans-serif;
-    line-height: 1.6;
+    line-height: 1.6; /* Improves readability */
     color: #333;
-    max-width: 800px;
-    margin: 0 auto;
+    max-width: 800px; /* Limits content width for better reading */
+    margin: 0 auto; /* Centers the content */
     padding: 20px;
 }
 
+/* Header section styling */
 header {
-    background: #f4f4f4;
+    background: #f4f4f4; /* Light gray background */
     padding: 20px;
     margin-bottom: 30px;
-    border-radius: 5px;
+    border-radius: 5px; /* Rounded corners */
 }
 
+/* Blog title spacing */
 header h1 {
     margin-bottom: 10px;
 }
 
+/* Navigation links */
 nav a {
     margin-right: 15px;
-    text-decoration: none;
-    color: #007acc;
+    text-decoration: none; /* Remove underlines */
+    color: #007acc; /* Blue color for links */
 }
 
+/* Link hover effect */
 nav a:hover {
     text-decoration: underline;
 }
 
+/* Individual blog post styling */
 .post {
     background: white;
     padding: 20px;
     margin-bottom: 20px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
+    border: 1px solid #ddd; /* Light border */
+    border-radius: 5px; /* Rounded corners */
 }
 
+/* Post title styling */
 .post h2 {
     margin-bottom: 10px;
-    color: #2c3e50;
+    color: #2c3e50; /* Dark blue-gray color */
 }
 
+/* Post metadata (date, author) styling */
 .meta {
-    color: #666;
-    font-size: 0.9em;
+    color: #666; /* Gray color */
+    font-size: 0.9em; /* Slightly smaller text */
     margin-bottom: 15px;
 }
 
+/* Footer styling */
 footer {
     text-align: center;
     padding: 20px;
     margin-top: 30px;
-    border-top: 1px solid #ddd;
-    color: #666;
+    border-top: 1px solid #ddd; /* Top border separator */
+    color: #666; /* Gray text */
 }
